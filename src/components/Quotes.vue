@@ -37,7 +37,7 @@ export default {
   methods: {
     getRandomQuote() {
       axios
-        .get("https://api.quotable.io/random/")
+        .get("https://api.quotable.io/random?maxLength=50")
         .then((response) => {
           this.quote = response.data;
           this.loading = false;
@@ -55,25 +55,42 @@ export default {
 <style scoped>
 .wrapper {
   background: var(--Dark-Grayish-Blue);
-  width: 80%;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   border-radius: 20px;
   color: var(--LightCyan);
-  padding: 20px;
+  padding: 40px 20px;
+  display: grid;
+  position: relative;
 }
 p {
   color: var(--Neon-Green);
 }
 h1 {
   font-size: 20px;
+  margin-block: 25px;
 }
 button {
   all: unset;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  background: var(--Neon-Green);
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 0px var(--Neon-Green);
+}
+button img {
+  margin: 13px;
 }
 .divider {
   background-image: url("../assets/pattern-divider-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
   height: 20px;
 }
 </style>
