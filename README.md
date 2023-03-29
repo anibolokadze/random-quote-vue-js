@@ -4,7 +4,8 @@ Built with Vue
 
 API - https://github.com/lukePeavey/quotable
 
-![desktop-design](https://user-images.githubusercontent.com/89190087/228604316-15781343-625a-433e-a4c6-bd10968b38f1.jpg)
+![Screenshot 2023-03-29 202443](https://user-images.githubusercontent.com/89190087/228604691-5a82f459-81fb-4d25-a036-3d06d1019726.png)
+
 
 
 
