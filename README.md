@@ -4,7 +4,8 @@ Built with Vue
 
 API - https://github.com/lukePeavey/quotable
 
-![quote](https://user-images.githubusercontent.com/89190087/228604220-8a5872ff-eb56-4c09-8679-d254b4ab3d9b.png)
+![desktop-design](https://user-images.githubusercontent.com/89190087/228604316-15781343-625a-433e-a4c6-bd10968b38f1.jpg)
+
 
 
 Users should be able to:
