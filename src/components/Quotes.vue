@@ -65,10 +65,12 @@ export default {
 }
 p {
   color: var(--Neon-Green);
+  text-align: center;
 }
 h1 {
   font-size: 20px;
   margin-block: 25px;
+  text-align: center;
 }
 button {
   all: unset;
@@ -92,5 +94,20 @@ button img {
   background-image: url("../assets/pattern-divider-mobile.svg");
   background-repeat: no-repeat;
   height: 20px;
+}
+
+@media (min-width: 1000px) {
+  .wrapper {
+    width: 450px;
+  }
+
+  .divider {
+    background-image: url("../assets/pattern-divider-desktop.svg");
+    background-repeat: no-repeat;
+    height: 20px;
+  }
+  button {
+    left: 43%;
+  }
 }
 </style>
